@@ -36,12 +36,12 @@
   <div class="row content">
     <div class="col-sm-2 sidenav" style="height: 800px;">
       <ul class="nav nav-pills nav-stacked" style="color: #1b1e24">
-        <li><a href="#">View Profile</a></li>
-        <li><a href="#pay">Pay</a></li>
+        <li><a href="#" id="viewProfile">View Profile</a></li>
+        <li><a href="#" id="pay">Pay</a></li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">My Wallet <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#loadMoney">Load Money</a></li>
+            <li><a href="#" id="loadMoney">Load Money</a></li>
             <li><a>Unload Money</a></li>
           </ul>
         </li>
@@ -58,7 +58,7 @@
 
     <div class="col-sm-9">
     	<!--------- view profile begin ---------->
-    	<div class="container" id="#">
+    	<div class="container" id="viewProfile">
   <h1 class="page-header" style="padding-left: 50px;">Profile Details</h1>
   <div class="row">
     <!-- left column -->
@@ -86,8 +86,7 @@
   text-align: left;">Phone</td>
             <td style= "padding: 15px;
   text-align: left;">
-              <input type="text" required name="phone" #phoneRef="ngModel" pattern="[0-9]*" ngModel/>
-              8902382521
+           8902382521
             </td>
           </tr>
           <tr>
