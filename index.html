@@ -37,11 +37,11 @@
     <div class="col-sm-2 sidenav" style="height: 800px;">
       <ul class="nav nav-pills nav-stacked" style="color: #1b1e24">
         <li><a href="#" id="viewProfile">View Profile</a></li>
-        <li><a id="pay">Pay</a></li>
+        <li><a href="#" id="pay">Pay</a></li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">My Wallet <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a id="loadMoney">Load Money</a></li>
+            <li><a href="#" id="loadMoney">Load Money</a></li>
             <li><a>Unload Money</a></li>
           </ul>
         </li>
@@ -113,7 +113,7 @@
 
     	<!--------- view profile end ----------->
     	<!--------- load money begin ----------->
-    	<div class="container" id="loadMoney">
+    	<div class="container" id="loadMoney" hidden>
   <div class="row" style="width: 82%; padding-top: 50px; padding-left: 300px;">
       <table id="t01" style="width: 30%;">
         <form>
@@ -186,7 +186,7 @@
 </div>
     	<!--------- load money end ----------->
     	<!--------- pay option begin ----------->
-      <div style="padding-left: 280px; padding-top: 30px;" id="pay">
+      <div style="padding-left: 280px; padding-top: 30px;" id="pay" hidden>
   	<table id="t01" style="width: 50%">
     	  <form>
     	    <tr>
