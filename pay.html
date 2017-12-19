@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" type="text/css" href="viewProfile.css">
+  <link rel="stylesheet" type="text/css" href="pay.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -58,63 +58,54 @@
     </div>
 
     <div class="col-sm-9" id="viewProfile">
-    	<!--------- view profile begin ---------->
-    	<div class="container">
-  <h1 class="page-header" style="padding-left: 50px;">Profile Details</h1>
-  <div class="row">
-    <!-- left column -->
-    <div class="col-md-4 col-sm-6 col-xs-12">
-      <div class="text-center">
-        <img src="photo.jpeg" class="img-thumbnail" height="100" width="100"/>
-      </div>
-      <h3 style="padding-left: 71px;">Aniruddha Biswas</h3>
-    </div>
-    <!-- edit form column -->
-    <div class="col-md-8 col-sm-6 col-xs-12 personal-info" style="padding-left: 100px;">
-      <table id="t01" style= "width: 70%">
-        <!--<form #userForm="ngForm" (ngSubmit)="onSaveDetails(userForm.value)">-->
-        <form>
-          <tr>
-            <th colspan="2" style="text-align: center; padding: 15px;text-align: left;">Personal Info</th>
-          </tr>
-          <tr>
-            <td style="font-weight: bold; padding: 15px;text-align: left;">Email</td>
-            <td style= "padding: 15px;
-  text-align: left;">aniruddha.uoh@gmail.com</td>
-          </tr>
-          <tr>
-            <td style="font-weight: bold;padding: 15px;
-  text-align: left;">Phone</td>
-            <td style= "padding: 15px;
-  text-align: left;">
-           8902382521
-            </td>
-          </tr>
-          <tr>
-            <td style="font-weight: bold;padding: 15px;
-  text-align: left;">Gender</td>
-            <td style="padding-left: 16px;padding: 15px;
-  text-align: left;">Male</td>
-          </tr>
-          <tr>
-            <td style= "padding: 15px;
-  text-align: left;">
-              <button class="btn btn-primary"><span class="glyphicon glyphicon-pencil"></span> Edit Details</button>
-            </td>
-            <td style= "padding: 15px;
-  text-align: left;">
-              <button class="btn btn-primary"><span></span> Save Details</button>
-            </td>
-          </tr>
-        </form>
-      </table>
-    </div>
-  </div>
-</div>
-</div>
-    	<!--------- view profile end ----------->
-
-    	
+    	<!--------- pay option begin ----------->
+      <div style="padding-left: 280px; padding-top: 30px;">
+  	<table id="t01" style="width: 50%">
+    	  <form>
+    	    <tr>
+      	      <th colspan="2" style="text-align: center; font-size: large; padding: 25px;">Pay to Friend</th>
+    	    </tr>
+    	    <tr>
+      		<td style="padding: 25px;"><span><i class="fa fa-google-wallet"></i> Wallet Balance:</span></td>
+      		<td style="padding-left: 50px; font-weight: bold; padding: 25px;"> Rs.100</td>
+    	    </tr>
+    	    <tr>
+      		<td style="padding: 25px;">Friend's Name</td>
+      	    	<td style="padding: 25px;">
+            		<select name="username" style="width: 250px; height: 30px;" ngModel>
+               		<option>
+            			Anima Dutta - anima.dutta@gmail.com
+          		</option>
+          		<option>
+            			Raghu ram - raghu.ram@gmail.com
+          		</option>
+          		<option>
+            			John Doe - john.doe@gmail.com
+          		</option>
+            		</select>
+      		</td>
+    	    </tr>
+    	    <tr>
+      		<td style="padding: 25px;">Amount To Pay</td>
+      		<td style="padding: 25px;">
+        		<input type="text" style="width: 250px; height: 30px;" required name="withdrawl"/>
+      		</td>
+    	    </tr>
+    	    <tr>
+      		<td style="padding: 25px;">Message</td>
+      		<td style="padding: 25px;">
+        		<input type="text" style="width: 250px; height: 30px;" name="description"/>
+      		</td>
+    	    </tr>
+    	    <tr>
+      		<td colspan="2" style="text-align: center; padding: 5px; padding: 25px;">
+        	<button type="submit" class="btn btn-primary btn-lg" >Unload Wallet</button>
+      		</td>
+    	    </tr>
+    	 </form>
+       </table>
+     </div>
+         <!--------- pay option end ----------->    	
     </div>
     <!-------->
   </div>
@@ -126,4 +117,7 @@
   </p>
 </footer>
 </body>
-</html>
+</html>  
+
+
+
