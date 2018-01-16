@@ -1,5 +1,5 @@
 .sidenav {
-  background-color: #1120c1;
+  background-color: #004d4d;
   height: 100%;
   padding: 15px;
 }
@@ -15,7 +15,7 @@ footer {
   /*background: #c2e59c;
   background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);
   background: linear-gradient(to right, #64b3f4, #c2e59c);*/
-  background: #1120c1;
+  background: #ffffff;
   border: none;
 }
 /* On small screens, set height to 'auto' for sidenav and grid */
